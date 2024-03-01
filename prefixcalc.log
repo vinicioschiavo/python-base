@@ -1,0 +1,10 @@
+sub,9,987 = -978
+sum,9,8 = 17
+div,8,2 = 4.0
+<built-in method isoformat of datetime.datetime object at 0x7f42e9c8ff90> - vschiavo - div,10,2 = 5.0
+<built-in method isoformat of datetime.datetime object at 0x7fb3a1ddbf90> - vschiavo - sum,9,9 = 18
+<built-in method isoformat of datetime.datetime object at 0x7f635104ff90> - vschiavo - sub,1,1 = 0
+2024-02-28T17:02:14.269384 - vschiavo - sum,9,9 = 18
+2024-02-28T17:02:17.696502 - vschiavo - div,10,2 = 5.0
+2024-02-28T17:02:22.054149 - vschiavo - div,8,2 = 4.0
+2024-02-28T17:02:32.888564 - vschiavo - sub,1,1 = 0

@@ -1,0 +1,4 @@
+vinicio,schiavo@gmail.com
+vitor,schiavo@gmail.com
+regiane,quint@gmail.com
+vania,quinto@gmail.com
