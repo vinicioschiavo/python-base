@@ -3,18 +3,15 @@
 import os
 import sys
 
-# LBYL = Look Before You Leap / Olhe antes de atreavesar
+# EAFP = Easy to Ask forgiveness than permission
+# É mais fácil perdir perdão do que permissão
 
-if os.path.exists("names.txt"):
-    print("O arquivo existe")
-    input("...") # Race condition
+try:
     names = open("names.txt").readlines()
-else:
-    print("[Error] File names.txt not found.")
+except FileNotFoundError as e:  # capturando a exception
+    print(f"{str(e)}.")  # tratando a exception
     sys.exit(1)
-        
-if len(names) >= 3 :
-    print(names[2])
 else:
-    print("[Error] Missing name in the list")
-    sys.exit(1)
+    print("Sucesso!!!")  # executa apenas quando não há exception
+finally:
+    print("Execute isso sempre!")  # executa sempre mesmo que tenha exception

@@ -1,0 +1,7 @@
+title:Meu post
+tags:tech, geral
+date:2022-02-10
+published:1
+---
+Este é o meu postaqui tem texto e conteudo
+etc. etc. etc.
