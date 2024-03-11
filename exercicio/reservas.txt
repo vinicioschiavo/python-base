@@ -1,0 +1,2 @@
+Vinicio,1,5
+Goku,3,6

@@ -1,2 +1,7 @@
 minha primeira nota	geral	Está é uma nota geral
 minha segunda nota	tecnologia	Python é coisa de outro Mundo!
+Minha terceira nota	tech	golang
+Repeticoes	python	while e for para repeticoes
+Post De Teste	test	Arrumando o test
+Adiconando	add	adiconando novos test
+To Com Fome	batata	muita fome de batata
